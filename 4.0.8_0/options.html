@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="styles/options/options.css"/>
+    <script src="scripts/lib/jquery.min.js"></script>
+    <script src="scripts/options/options.js"></script>
+</head>
+<body class="chrome-bootstrap">
+    <div class="frame">
+        <div class="navigation">
+            <h1>
+                <a id="options-title" href="#"></a>
+            </h1>
+            <ul class="menu">
+                <li class="selected">
+                    <a class="options-name" href="#options"></a>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li>
+                    <a class="options-about" href="#about"></a>
+                </li>
+            </ul>
+        </div>
+    <div class="mainview view">
+        <div id="options" class="selected">
+            <header>
+                <h1 class="options-name"></h1>
+            </header>
+            <div class="content">
+                <h2 id="options-save"></h2>
+                <div class="checkbox">
+                    <label>
+                        <input id="options-saveImage2Server" type="checkbox">
+                        <label id="lable-options-saveImage2Server" for="options-saveImage2Server" ></label>
+                    </label>
+                </div>
+                <div id="options-saveImage2Server-tip"></div>
+            </div>
+        </div>
+        <div id="about">
+            <header>
+                <h1 class="options-about"></h1>
+            </header>
+            <div class="content">
+                <p>WizNote</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
